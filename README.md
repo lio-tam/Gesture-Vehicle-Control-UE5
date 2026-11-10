@@ -2,7 +2,9 @@
 
 In summer semester 2025, five of us built a driving game in Unreal Engine 5 that you control with your hands in front of a webcam. It was an institute project in agile development at RWTH Aachen. I wrote the gesture control and the connection to Unreal: the Python program that turns hand poses into driving commands, the UDP bridge, and the vehicle control on the Unreal side.
 
-![Driving with hand gestures: webcam with hand landmarks on top, the game below](docs/media/demo_webcam_and_game.gif)
+![Driving the car with hand gestures in front of the laptop webcam](docs/media/gesture_control_demo.gif)
+
+*The right hand steers and opens or closes for throttle and brake; the left hand switches between drive and reverse with a thumb up or down (see [Gestures](#gestures)).*
 
 This repository contains my code only. The full Unreal project isn't included: it is about 5 GB, and some of its assets come from a store pack (Vehicle Variety Pack) whose licence doesn't allow redistributing it.
 
